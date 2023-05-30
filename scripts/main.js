@@ -14,6 +14,9 @@ headerContent.innerHTML = `
             <a href="css-display.html"> CSS Display
         </li>
         <li>
+            <a href="css-position.html"> CSS Position
+        </li>
+        <li>
             <a href="css-flex.html"> CSS Flex
         </li>
     </ul>

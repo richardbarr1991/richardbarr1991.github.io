@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS position Property</title>
+  <link rel="stylesheet" href="styles/default.css">
+  <link rel="stylesheet" href="styles/css-position.css">
+</head>
+
+<body>
+  <div id="header-container"></div>
+
+  <h1>CSS position Property</h1>
+  <h2>Default value: static</h2>
+  
+  <p>static: Default value. Elements render in order, as they appear in the document flow</p>
+  <div class="box">divs are static by default</div>
+  
+  <p>fixed:	The element is positioned relative to the browser window &#40see bottom right corner&#41.</p>
+  <div class="box fixed">this div is fixed at 100px from the bottom and the right &#40;of the displayport&#41;</div>
+  
+  <p>relative:	The element is positioned relative to its normal position, so "left:200px" adds 200 pixels to the element's LEFT position</p>
+  <div class="box relative">this div is relative and set to left:200px</div>
+  
+  <p>absolute:	The element is positioned relative to its first positioned (not static) ancestor element</p>
+  <div class="container-relative">this is a container set to position:relative 
+    <div class="box absolute">this is a child element set to position:absolute with top and left values of 50px</div>
+  </div>
+  
+  <p>sticky:	The element is positioned based on the user's scroll position. 
+      <br>  A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+    <br>
+  </p>
+  <div class="box sticky">this is a sticky div set to top:500px</div>
+  </div>
+  
+<div class="long">
+  This is just a long div to stretch the page so we can see how the sticky div works
+</div>
+
+</body>
+<script src="scripts/main.js"></script>
+</html>
