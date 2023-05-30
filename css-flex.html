@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/css-flex.css">
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <h1>Create a Flex Container</h1>
+
+    <div class="flex-container">
+        <div class="flex-child">default</div>
+        <div class="flex-child">flex</div>
+        <div class="flex-child">style (default: row)</div>
+        <div class="flex-child">do they wrap by default?</div>
+        <div class="flex-child">no they don't</div>
+    </div>
+
+    <div class="flex-container column">
+        <div class="flex-child">column</div>
+        <div class="flex-child">style</div>
+        <div class="flex-child">baby</div>
+    </div>
+
+    <div class="flex-container wrap">
+        <div class="flex-child">default</div>
+        <div class="flex-child">flex</div>
+        <div class="flex-child">style except with flex-wrap: wrap</div>
+        <div class="flex-child">so now they wrap</div>
+        <div class="flex-child">Oh yes they do</div>
+    </div>
+
+    <div class="flex-container justify-center">
+        <div class="flex-child">we are</div>
+        <div class="flex-child">justify-content:</div>
+        <div class="flex-child">centre</div>
+    </div>
+
+    <div class="flex-container justify-space-around">
+        <div class="flex-child">we are</div>
+        <div class="flex-child">justify-content:</div>
+        <div class="flex-child">space-around</div>
+    </div>
+    
+    <div class="flex-container justify-space-between">
+        <div class="flex-child">we are</div>
+        <div class="flex-child">justify-content:</div>
+        <div class="flex-child">space-between</div>
+    </div>
+
+    <div class="flex-container align-center">
+        <div class="flex-child">we are</div>
+        <div class="flex-child">align-items:</div>
+        <div class="flex-child">center</div>
+    </div>
+
+    <div class="flex-container height align-center">
+        <div class="flex-child">we are</div>
+        <div class="flex-child">align-items:</div>
+        <div class="flex-child">center</div>
+        <div class="flex-child">(requires height value on parent)</div>
+    </div>
+    
+        <div class="flex-container height align-flex-start">
+            <div class="flex-child">we are</div>
+            <div class="flex-child">align-items:</div>
+            <div class="flex-child">flex-start</div>
+            <div class="flex-child">(requires height value on parent)</div>
+        </div>
+
+    <div class="flex-container height align-flex-end">
+        <div class="flex-child">we are</div>
+        <div class="flex-child">align-items:</div>
+        <div class="flex-child">flex-end</div>
+        <div class="flex-child">(requires height value on parent)</div>
+    </div>
+
+    <div class="flex-container height align-stretch">
+        <div class="flex-child">we are</div>
+        <div class="flex-child">align-items:</div>
+        <div class="flex-child">stretch</div>
+        <div class="flex-child">(requires height value on parent)</div>
+        <div class="flex-child">(this is default)</div>
+    </div>
+
+
+</body>
+<script src="scripts/main.js"></script>
+
+</html>
