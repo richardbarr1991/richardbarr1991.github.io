@@ -11,6 +11,9 @@ headerContent.innerHTML = `
             <a href="page-2.html"> Page 2
         </li>
         <li>
+            <a href="css-display.html"> CSS Display
+        </li>
+        <li>
             <a href="css-flex.html"> CSS Flex
         </li>
     </ul>

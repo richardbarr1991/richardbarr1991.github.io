@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Display Demo</title>
+  <link rel="stylesheet" href="styles/default.css">
+  <link rel="stylesheet" href="styles/css-display.css">
+</head>
+
+<body>
+  <div id="header-container"></div>
+
+  <h1>CSS Display Properties</h1>
+  <p>block:	Displays an element as a block element (like &ltp&gt). It starts on a new line, and takes up the whole width. Most HTML elements are block by default</p>
+  <div class="box">divs are block by default</div>
+  <div class="box">that's why they stack vertically</div>
+  <p>inline:	Displays an element as an inline element (like &ltspan&gt). Any height and width properties will have no effect. </p>
+  <div class="box inline">this div is the same as the ones above except it's inline</div>
+  <div class="box inline">the width and height properties don't have any effect any more</div>
+  <div class="box inline">also they now spread out horizontally</div>
+  <div class="box inline">until the end of the viewport at which point they will wrap</div>
+
+  <ul>List of elements which are inline by default: 
+    <li>&lta&gt</li>
+    <li>&ltbutton&gt</li>
+    <li>&ltembed&gt</li>
+    <li>&ltiframe&gt</li>
+    <li>&ltinput&gt</li>
+    <li>&ltimg&gt</li>
+    <li>&ltsvg&gt</li>
+    <li>&ltvideo&gt</li>
+    <li>&ltspan&gt</li>
+    
+  </ul>
+
+  <p>inline-block:	Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values</p>
+
+  <div class="box inline-block">now the width and height properties work again</div>
+  <div class="box inline-block">they still spread out horizontally</div>
+  <div class="box inline-block">don't know why they are up and down like this lol</div>
+</body>
+<script src="scripts/main.js"></script>
+
+</html>
