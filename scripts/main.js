@@ -1,6 +1,7 @@
 var headerContent = document.createElement('div')
 
 headerContent.innerHTML = `
+<div id ="header">
 <h1>Richard Barr's Website</h1>
     <ul>
         <li>
@@ -13,8 +14,9 @@ headerContent.innerHTML = `
             <a href="css-flex.html"> CSS Flex
         </li>
     </ul>
+</div>
 `;
 
-var header = document.querySelector('#header');
+var headerContainer = document.querySelector('#header-container');
 
-header.appendChild(headerContent);
+headerContainer.appendChild(headerContent);
