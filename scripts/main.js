@@ -19,6 +19,9 @@ headerContent.innerHTML = `
         <li>
             <a href="css-flex.html"> CSS Flex
         </li>
+        <li>
+            <a href="css-grid.html"> CSS Grid
+        </li>
     </ul>
 </div>
 `;
